@@ -1,19 +1,26 @@
 package helper
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func TestSayHelloJihyo(t *testing.T) {
 	result := SayHello("Jihyo")
 
 	if result != "Hello, Jihyo" {
-		panic("Result is not `Hello, Jihyo`")
+		t.Error("It must be 'Hello, Jihyo'")
 	}
+
+	fmt.Println("TestSayHelloJihyo DONE CUY")
 }
 
 func TestSayHelloAshel(t *testing.T) {
-	result := SayHello("Anin")
+	result := SayHello("Ashel")
 
 	if result != "Hello, Ashel" {
-		panic("Result is not `Hello, Ashel`")
+		t.Fatal("It must be 'Hello, Ashel'")
 	}
+
+	fmt.Println("TestSayHelloAshel DONE CUY")
 }
