@@ -1,8 +1,8 @@
-# Golang Unit Testing Without External Packages
+# Golang Unit Testing 
 
 This repository is dedicated to learning about unit testing in Golang without relying on external packages. It provides valuable resources and examples to help you master the art of writing effective unit tests for your Go applications.
 
-![Golang Logo](https://golang.org/doc/gopher/gophercolor.png)
+![Golang Logo](https://res.cloudinary.com/practicaldev/image/fetch/s--mxKTxLwR--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iremj8026czyt3x4hdrc.png)
 
 ## Table of Contents
 
